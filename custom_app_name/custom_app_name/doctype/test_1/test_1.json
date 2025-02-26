@@ -5,18 +5,24 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "first_name"
+  "first_name",
+  "last_name"
  ],
  "fields": [
   {
    "fieldname": "first_name",
    "fieldtype": "Data",
    "label": "First Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-26 12:57:32.665671",
+ "modified": "2025-02-26 13:17:17.380608",
  "modified_by": "Administrator",
  "module": "custom_app_name",
  "name": "Test 1",
